@@ -1,0 +1,75 @@
+body {
+    font-family: 'Roboto Mono',monospace;
+    position: relative;
+    background-color: #FFFDE1;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+  
+.container {
+    text-align: center;
+    padding: 20px;
+
+  }
+  
+.page-title {
+    color: #00307C;
+    margin: 0 0 5px;
+  }
+  
+.page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+
+.page-logo {
+    width: 200px;
+  }
+
+.caixa {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ffffff;
+    background-color: #00307C;
+    border-radius: 12px;
+    width: 200px;
+    height: 50px;
+}
+  
+.calculadora img {
+    
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+h2 {
+    color: #ffffff;
+    position: absolute;
+    font-size: 17px;
+    font-weight:bold;
+    top: 98px;
+    left: calc(50% - 72.5px);
+    width: 145px;
+    text-align:center;
+  }
+  
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right:10px;
+}
+
+@media(max-width: 460px) {
+  body {
+      margin-left: 10px;
+      width: 400px;
+      height: 500px;
+      top: 20px;
+      position: absolute;
+  }
+
+}
